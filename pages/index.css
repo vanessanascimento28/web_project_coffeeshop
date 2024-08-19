@@ -116,23 +116,19 @@
   align-items: center;
 }
 
-.paragraph__footer {
+.header__paragraph-footer {
   margin: 0;
   display: flex;
   flex-direction: column;
 }
 
-.paragraph {
+.header__paragraph {
   margin: 0;
   left: 80px;
   bottom: 40px;
-}
-
-.header__address {
   right: 80px;
   bottom: 40px;
   position: absolute;
-  margin: 0;
 }
 
 /* -----------------------------------------MAIN RECIPES SECTION -----------------------------------*/
@@ -180,7 +176,7 @@
 .recipes__iframe {
   height: 273px;
   width: 480px;
-  border: none;
+  border: 0px;
 }
 
 .recipes__video-caption {
