@@ -110,11 +110,11 @@
         <section class="reservation" id="reservation">
           <h2 class="reservation__title">Reservar uma mesa</h2>
 
-          <form class="form" action="post">
+          <form class="form reservation__form" action="post">
             <fieldset class="form__fieldset">
               <label class="form__label" for="label-name">Nome *</label>
               <input
-              class="form__input"
+                class="form__input"
                 type="text"
                 id="label-name"
                 name="nome"
@@ -126,7 +126,7 @@
                 >Número de convidados *</label
               >
               <input
-              class="form__input"
+                class="form__input"
                 type="number"
                 id="label-guests"
                 name="convidados"
@@ -136,26 +136,42 @@
                 required
               />
 
-              <label class="form__label" for="label-date"">Data e hora *</label>
-              <input class="form__input" type="date" id="label-date" name="data" required />
+              <label class="form__label" for="date">Data e hora *</label>
+              <input
+                class="form__input"
+                type="date"
+                id="date"
+                name="date"
+                required
+              />
 
               <label class="form__label" for="label-email">Email *</label>
               <input
-              class="form__input"
+                class="form__input"
                 type="email"
                 id="label-email"
                 name="email"
                 placeholder="email@email.com"
                 required
               />
-
             </fieldset>
-            <button class="form__button" type="submit">Reservar uma mesa</button>
+            <button class="form__button" type="submit">
+              Reservar uma mesa
+            </button>
 
-            <label class="form__label form__label_horizontal_layout" for="agree">
-            <input class="form__checkbox" type="checkbox" id="agree" name="agree" checked>
-          Eu concordo com os termos de uso
-          </label>
+            <label
+              class="form__label form__label_horizontal_layout"
+              for="agree"
+            >
+              <input
+                class="form__checkbox"
+                type="checkbox"
+                id="agree"
+                name="agree"
+                checked
+              />
+              Eu concordo com os termos de uso
+            </label>
           </form>
         </section>
       </main>
