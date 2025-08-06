@@ -45,6 +45,10 @@ O projeto foi concluído com sucesso conforme os requisitos técnicos da Sprint 
 - Implementar efeitos de rolagem suave e transições visuais  
 - Otimizar o carregamento das imagens e vídeos  
 
+**🌐 Link da Página**
+
+🖥️ Visualize aqui: [https://vanessanascimento28.github.io/web_project_coffeeshop/](https://vanessanascimento28.github.io/web_project_coffeeshop/)
+
 ---
 
 **📂 Repositório GitHub**
